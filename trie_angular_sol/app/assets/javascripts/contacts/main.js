@@ -2,7 +2,8 @@
   "use strict";
 
   var ContactsApp = angular.module("ContactsApp", [
-    "ContactsCtrls"
+    "ContactsCtrls",
+    "ContactsFactories"
   ]);
 
   ContactsApp.config(["$httpProvider", function($httpProvider){
